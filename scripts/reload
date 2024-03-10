@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+######################################################
+# This Script loads current version of configuration #
+######################################################
+
+sudo nixos-rebuild switch -I nixos-config=$HOME/Github/my-nixos-config/system/configuration.nix
